@@ -1,6 +1,6 @@
 {
   "name": "kalabox-stats-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Anonymous user stats REST API client.",
   "main": "index.js",
   "keywords": [
@@ -11,10 +11,10 @@
     "url": "https://github.com/kalabox/kalabox-stats-client"
   },
   "bugs": {
-    "email": "benjamin.cauldwell@gmail.com",
+    "email": "riley.cauldwell@gmail.com",
     "url": "http://github.com/kalabox/kalabox-stats-client"
   },
-  "author": "benjamin.cauldwell@gmail.com",
+  "author": "riley.cauldwell@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^2.9.25",
