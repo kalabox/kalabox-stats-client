@@ -72,16 +72,13 @@ Client.prototype.__request = function(verb, pathname, data) {
 /*
  * Report meta data for this metric client instance.
  */
-Client.prototype.report = function(metaData) {
+Client.prototype.report = function(record) {
 
   // Save for later.
   var self = this;
 
   // Build request data.
-  var record = {
-    created: ts(),
-    data: metaData
-  };
+  record.created = ts();
 
   // Send REST request.
   return self.__request('postJson', 'metrics/v2/' + self.id, record);
